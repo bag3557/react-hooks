@@ -4,7 +4,7 @@ Hooks don't work inside classes.
 
 ## Why Hooks???
 
-Understand how **this** keyword works in javascript.
+Understand how **this** keyword works in javascript.<br>
 Remember to bind event handlers in class components.
 Classes don't minify very well and make hot reloading very unreliable.
 
