@@ -1,3 +1,13 @@
+# React Hooks
+
+Hooks don't work inside classes.
+
+## Why Hooks???
+
+Understand how **this** keyword works in javascript.
+Remember to bind event handlers in class components.
+Classes don't minify very well and make hot reloading very unreliable.
+
 ## Rules of Hooks
 
 "Only call Hooks at the Top Level"
