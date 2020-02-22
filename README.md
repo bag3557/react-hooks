@@ -41,6 +41,10 @@ When dealing with object or arrays, always make sure to spread your state variab
 The Effect Hook lets you perform side effect in functional components<br/>
 It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount<br/>
 
+# Context
+
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
 # Notes
 
 For React Hooks, React 16.8 or higher version is required<br/>
