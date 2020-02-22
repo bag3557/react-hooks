@@ -23,3 +23,7 @@ New state value depends on the previous state value? You can pass a function to 
 When dealing with object or arrays, always make sure to spread your state variable and then call the setter function
 
 ## useEffect
+
+The Effect Hook lets you perform side effect in functional components
+
+It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
