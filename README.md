@@ -4,17 +4,17 @@ Hooks don't work inside classes.
 
 ## Why Hooks???
 
-Understand how **this** keyword works in javascript.<br>
-Remember to bind event handlers in class components.
+Understand how **this** keyword works in javascript.<br/>
+Remember to bind event handlers in class components.<br/>
 Classes don't minify very well and make hot reloading very unreliable.
 
 ## Rules of Hooks
 
-"Only call Hooks at the Top Level"
+- "Only call Hooks at the Top Level" \*
 
 Don't call Hooks inside loops, conditions or nested functions
 
-"Only call Hooks from React Functions"
+- "Only call Hooks from React Functions"\*
 
 Call them from within React Functional components and not just any regular JavaScript function
 
