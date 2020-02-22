@@ -21,3 +21,5 @@ The first element is the current value of the state, and the second element is a
 New state value depends on the previous state value? You can pass a function to the setter function
 
 When dealing with object or arrays, always make sure to spread your state variable and then call the setter function
+
+## useEffect
