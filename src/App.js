@@ -37,7 +37,11 @@ import "./App.css";
 // import DataFetchingOne from "./components/DataFetchingOne";
 // import DataFetchingTwo from "./components/DataFetchingTwo";
 
-import ParentComponent from "./components/ParentComponent";
+// import ParentComponent from "./components/ParentComponent";
+
+// import Counter from "./components/Counter";
+import FocusInput from "./components/FocusInput";
+
 // export const CountContext = React.createContext();
 
 // const initialState = 0;
@@ -92,7 +96,11 @@ function App() {
 
       {/* <DataFetchingOne /> */}
       {/* <DataFetchingTwo /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+
+      {/* <Counter /> */}
+
+      <FocusInput />
     </div>
     // </CountContext.Provider>
   );

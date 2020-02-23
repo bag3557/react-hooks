@@ -95,6 +95,8 @@ useEffect - side effects</br>
 useContext - context API</br>
 useReducer - reducers</br>
 useCallback - performance, prevent unnecessary renders</br>
+useMemo - performance</br>
+useRef - get reference of element in actual dom</br>
 
 # Notes
 
