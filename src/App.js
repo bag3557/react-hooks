@@ -22,9 +22,11 @@ import "./App.css";
 // import DataFetching from "./components/DataFetching";
 // import SinglePostDataFetching from "./components/SinglePostDataFetching";
 
-import FirstComp from "./components/FirstComp";
-export const UserContext = React.createContext();
-export const ChannelContext = React.createContext();
+// import FirstComp from "./components/FirstComp";
+// export const UserContext = React.createContext();
+// export const ChannelContext = React.createContext();
+
+import CounterOne from "./components/CounterOne";
 function App() {
   return (
     <div className="App">
@@ -42,11 +44,13 @@ function App() {
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
       {/* <SinglePostDataFetching /> */}
+      {/*       
       <UserContext.Provider value={"AJIT BHAIK"}>
         <ChannelContext.Provider value={"Code Whisperer"}>
           <FirstComp />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <CounterOne />
     </div>
   );
 }

@@ -41,11 +41,27 @@ When dealing with object or arrays, always make sure to spread your state variab
 The Effect Hook lets you perform side effect in functional components<br/>
 It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount<br/>
 
-# Context
+## Context
 
 Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
-# useReducer
+## useReducer
+
+useReducer us a hook that is used for the state management</br>
+It is an alternative to setState
+
+#### What's the difference?
+
+useState is built using useReducer
+
+#### When to useReducer vs useState?=
+
+## Hooks so far
+
+useState - state</br>
+useEffect - side effects</br>
+useContext - context API</br>
+useReducer - reducers</br>
 
 # Notes
 
