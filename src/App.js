@@ -20,8 +20,11 @@ import "./App.css";
 // import IntervalHookCounter from "./components/IntervalHookCounter";
 
 // import DataFetching from "./components/DataFetching";
-import SinglePostDataFetching from "./components/SinglePostDataFetching";
+// import SinglePostDataFetching from "./components/SinglePostDataFetching";
 
+import FirstComp from "./components/FirstComp";
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
@@ -38,7 +41,12 @@ function App() {
       {/* <IntervalClassComponent /> */}
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
-      <SinglePostDataFetching />
+      {/* <SinglePostDataFetching /> */}
+      <UserContext.Provider value={"AJIT BHAIK"}>
+        <ChannelContext.Provider value={"Code Whisperer"}>
+          <FirstComp />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
