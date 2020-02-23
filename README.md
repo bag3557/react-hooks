@@ -56,20 +56,20 @@ useState is built using useReducer
 
 #### When to useState vs useReducer?
 
-1. Type of state-
-   useState- Number, String, Boolean
+1. Type of state-</br>
+   useState- Number, String, Boolean</br>
    useReducer - Object or Array
-2. Number of state transitions-
-   useState- one or two
+2. Number of state transitions-</br>
+   useState- one or two</br>
    useReducer - Too many
-3. Related state transitions-
-   useState- No
+3. Related state transitions-</br>
+   useState- No</br>
    useReducer- Yes
-4. Business Logic-
-   useState- No business logic
+4. Business Logic-</br>
+   useState- No business logic</br>
    useReducer- Complex business logic
-5. Local vs Global state-
-   useState- Local
+5. Local vs Global state-</br>
+   useState- Local</br>
    userReducer- Global
 
 #### useReducer with useContext
