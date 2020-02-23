@@ -12,8 +12,8 @@ HOC and render props patterns do address this problem<br/>
 Makes the code harder to follow<br/>
 There is need to share stateful logic in a better way<br/><br/>
 Create components for complex scenarios such as data fetching and subscribing to events<br/>
-Related code is not orgnized in once place
-**EX**
+Related code is not orgnized in once place<br/>
+**EX:-**<br/>
 Data Fetching- In _componentDidMount_ and _componentDidUpdate_<br/>
 Event Listeners - In _componentDidMount_ and _componentWillUnmout_
 
