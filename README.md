@@ -94,7 +94,7 @@ useState - state</br>
 useEffect - side effects</br>
 useContext - context API</br>
 useReducer - reducers</br>
-useCallback - reducers</br>
+useCallback - performance, prevent unnecessary renders</br>
 
 # Notes
 
