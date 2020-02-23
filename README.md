@@ -88,8 +88,6 @@ useCallback is a hook that will return a memoized version of the callback functi
 
 It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
 
-#### How?
-
 ## Hooks so far
 
 useState - state</br>
