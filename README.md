@@ -14,7 +14,7 @@ There is need to share stateful logic in a better way<br/><br/>
 Create components for complex scenarios such as data fetching and subscribing to events<br/>
 Related code is not orgnized in once place
 **EX**
-Data Fetching- In _componentDidMount_ and _componentDidUpdate_
+Data Fetching- In _componentDidMount_ and _componentDidUpdate_<br/>
 Event Listeners - In _componentDidMount_ and _componentWillUnmout_
 
 Because of stateful logic- can't break components into smaller ones.

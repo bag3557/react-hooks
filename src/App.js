@@ -26,7 +26,8 @@ import "./App.css";
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
 
-import CounterOne from "./components/CounterOne";
+// import CounterOne from "./components/CounterOne";
+import CounterTwo from "./components/CounterTwo";
 function App() {
   return (
     <div className="App">
@@ -50,7 +51,8 @@ function App() {
           <FirstComp />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <CounterOne />
+      {/* <CounterOne /> */}
+      <CounterTwo />
     </div>
   );
 }
