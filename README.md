@@ -54,7 +54,23 @@ It is an alternative to setState
 
 useState is built using useReducer
 
-#### When to useReducer vs useState?
+#### When to useState vs useReducer?
+
+1. Type of state-
+   useState- Number, String, Boolean
+   useReducer - Object or Array
+2. Number of state transitions-
+   useState- one or two
+   useReducer - Too many
+3. Related state transitions-
+   useState- No
+   useReducer- Yes
+4. Business Logic-
+   useState- No business logic
+   useReducer- Complex business logic
+5. Local vs Global state-
+   useState- Local
+   userReducer- Global
 
 #### useReducer with useContext
 
