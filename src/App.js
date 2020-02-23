@@ -30,63 +30,65 @@ import "./App.css";
 // import CounterTwo from "./components/CounterTwo";
 // import CounterThree from "./components/CounterThree";
 
-import ComponentA from "./components/ComponentA";
-import ComponentB from "./components/ComponentB";
-import ComponentC from "./components/ComponentC";
+// import ComponentA from "./components/ComponentA";
+// import ComponentB from "./components/ComponentB";
+// import ComponentC from "./components/ComponentC";
+import DataFetchingOne from "./components/DataFetchingOne";
+// export const CountContext = React.createContext();
 
-export const CountContext = React.createContext();
+// const initialState = 0;
 
-const initialState = 0;
-
-const reducer = (state, action) => {
-  switch (action) {
-    case "increment":
-      return state + 1;
-    case "decrement":
-      return state - 1;
-    case "reset":
-      return initialState;
-    default:
-      return state;
-  }
-};
+// const reducer = (state, action) => {
+//   switch (action) {
+//     case "increment":
+//       return state + 1;
+//     case "decrement":
+//       return state - 1;
+//     case "reset":
+//       return initialState;
+//     default:
+//       return state;
+//   }
+// };
 
 function App() {
-  const [count, dispatch] = useReducer(reducer, initialState);
+  // const [count, dispatch] = useReducer(reducer, initialState);
   return (
-    <CountContext.Provider
-      value={{ countState: count, countDispatch: dispatch }}
-    >
-      <div className="App">
-        {/* <ClassCounter /> */}
-        {/* <HookCounter /> */}
-        {/* <HookCounterTwo /> */}
-        {/* <HookCounterThree /> */}
-        {/* <HookCounterFour /> */}
-        {/* <ClassCounterOne /> */}
-        {/* <HookCounterOne /> */}
-        {/* <ClassMouse /> */}
-        {/* <HookMouse /> */}
-        {/* <MouseContainer /> */}
-        {/* <IntervalClassComponent /> */}
-        {/* <IntervalHookCounter /> */}
-        {/* <DataFetching /> */}
-        {/* <SinglePostDataFetching /> */}
-        {/*       
+    // <CountContext.Provider
+    //   value={{ countState: count, countDispatch: dispatch }}
+    // >
+    <div className="App">
+      {/* <ClassCounter /> */}
+      {/* <HookCounter /> */}
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounterThree /> */}
+      {/* <HookCounterFour /> */}
+      {/* <ClassCounterOne /> */}
+      {/* <HookCounterOne /> */}
+      {/* <ClassMouse /> */}
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      {/* <IntervalClassComponent /> */}
+      {/* <IntervalHookCounter /> */}
+      {/* <DataFetching /> */}
+      {/* <SinglePostDataFetching /> */}
+      {/*       
       <UserContext.Provider value={"AJIT BHAIK"}>
         <ChannelContext.Provider value={"Code Whisperer"}>
           <FirstComp />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-        {/* <CounterOne /> */}
-        {/* <CounterTwo /> */}
-        {/* <CounterThree /> */}
-        <p>Count: {count}</p>
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      {/* <CounterThree /> */}
+      {/* <p>Count: {count}</p>
         <ComponentA />
         <ComponentB />
-        <ComponentC />
-      </div>
-    </CountContext.Provider>
+        <ComponentC /> */}
+
+      <DataFetchingOne />
+    </div>
+    // </CountContext.Provider>
   );
 }
 
