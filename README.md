@@ -54,7 +54,13 @@ It is an alternative to setState
 
 useState is built using useReducer
 
-#### When to useReducer vs useState?=
+#### When to useReducer vs useState?
+
+#### useReducer with useContext
+
+useReducer- Local state management</br>
+useContext- Share state between components - Global state management</br>
+useReducer + useContext
 
 ## Hooks so far
 
