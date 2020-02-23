@@ -78,12 +78,25 @@ useReducer- Local state management</br>
 useContext- Share state between components - Global state management</br>
 useReducer + useContext
 
+## useCallback
+
+#### What?
+
+useCallback is a hook that will return a memoized version of the callback function that only changes if one of the dependencies has changed.<br/>
+
+#### Why?
+
+It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
+
+#### How?
+
 ## Hooks so far
 
 useState - state</br>
 useEffect - side effects</br>
 useContext - context API</br>
 useReducer - reducers</br>
+useCallback - reducers</br>
 
 # Notes
 

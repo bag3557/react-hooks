@@ -1,4 +1,5 @@
-import React, { useReducer } from "react";
+// import React, { useReducer } from "react";
+import React from "react";
 
 import "./App.css";
 
@@ -34,7 +35,9 @@ import "./App.css";
 // import ComponentB from "./components/ComponentB";
 // import ComponentC from "./components/ComponentC";
 // import DataFetchingOne from "./components/DataFetchingOne";
-import DataFetchingTwo from "./components/DataFetchingTwo";
+// import DataFetchingTwo from "./components/DataFetchingTwo";
+
+import ParentComponent from "./components/ParentComponent";
 // export const CountContext = React.createContext();
 
 // const initialState = 0;
@@ -88,7 +91,8 @@ function App() {
         <ComponentC /> */}
 
       {/* <DataFetchingOne /> */}
-      <DataFetchingTwo />
+      {/* <DataFetchingTwo /> */}
+      <ParentComponent />
     </div>
     // </CountContext.Provider>
   );
