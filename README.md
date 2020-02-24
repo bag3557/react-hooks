@@ -88,6 +88,15 @@ useCallback is a hook that will return a memoized version of the callback functi
 
 It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders.
 
+## Custom Hooks
+
+A custom hook is basically a JavaScript function whose name start with 'use'.</br>
+A custom hook can also call other hooks if required.
+
+#### Why?
+
+Share Logic- Alternative to HOCs and Render Props
+
 ## Hooks so far
 
 useState - state</br>

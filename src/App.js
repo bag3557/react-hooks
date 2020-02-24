@@ -41,8 +41,11 @@ import "./App.css";
 
 // import Counter from "./components/Counter";
 // import FocusInput from "./components/FocusInput";
-import ClassTimer from "./components/ClassTimer";
-import HookTimer from "./components/HookTimer";
+// import ClassTimer from "./components/ClassTimer";
+// import HookTimer from "./components/HookTimer";
+
+import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
 
 // export const CountContext = React.createContext();
 
@@ -104,8 +107,10 @@ function App() {
 
       {/* <FocusInput /> */}
 
-      <ClassTimer />
-      <HookTimer />
+      {/* <ClassTimer />
+      <HookTimer /> */}
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
     // </CountContext.Provider>
   );
